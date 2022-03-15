@@ -1,1 +1,1 @@
-# PROJECT-ETCH-A-SKETCH
+Project: Etch A Sketch
