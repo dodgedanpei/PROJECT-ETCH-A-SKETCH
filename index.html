@@ -8,12 +8,27 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<div class="big-container">
+    <div class="header">
+        <h2>Project: Etch A Sketch</h2>
+        <h3>Hover over the grid and have fun!</h3>
+        <h3>Number of Squares = <span id="squareNum">256</span></h3>
+    </div>
 
-    <h2>Project: Etch A Sketch</h2>
-    <h3>There are now <span id="squareNum">16</span> squares.</h3>
-    <button id="reset">Reset</button>
-    <input type="color" id="color">
-    <div id="container"></div>
+    <div class="main">
+        <div>
+
+            <div class="colorMenu">
+                <h5>Color:</h5>
+                <input type="color" id="color">
+            </div>
+
+        <div><button id="reset">Reset</button></div>
+        
+        </div>
+        <div id="container"></div>
+    </div>
+</div>
     <script src="app.js"></script>
 </body>
 </html>
